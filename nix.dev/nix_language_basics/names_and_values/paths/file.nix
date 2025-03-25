@@ -19,6 +19,7 @@
 
   ## You can use angle brackets to refer to a lookup path.
   ## This is useful when you want to refer to a file in the Nix store.
+  ## Since this feature is not reproducible, it is not recommended to use it in Nix expressions.
   lookup_path = <nixpkgs>;
   lib_on_lookup_path = <nixpkgs/lib>;
 }
